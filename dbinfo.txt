@@ -1,0 +1,43 @@
+Tables in Database
+
+1. 'threads' Table
+
+SQL "Create Table" Query
+------------------------
+CREATE TABLE threads (
+  id INTEGER PRIMARY KEY AUTO_INCREMENT,
+  author TEXT,
+  title TEXT,
+  content TEXT,
+  category TEXT,
+  date TIMESTAMP
+);
+
+2. 'comments' Table
+
+SQL "Create Table" Query
+------------------------
+CREATE TABLE comments (
+  id INTEGER PRIMARY KEY AUTO_INCREMENT,
+  thread_id INTEGER,
+  commenter TEXT,
+  content TEXT,
+  date TIMESTAMP
+);
+
+3. 'accounts' Table
+
+SQL "Create Table" Query
+------------------------
+CREATE TABLE accounts (
+  id INTEGER PRIMARY KEY AUTO_INCREMENT,
+  name TEXT NOT NULL,
+  username TEXT NOT NULL,
+  password TEXT NOT NULL,
+  email TEXT,
+  rank INTEGER NOT NULL,
+  date_joined TIMESTAMP
+);
+
+Other Notes:
+(1) For ranks in accounts, Banned = 1, Member = 2, Moderator = 3, Super Moderator = 4, Administrator = 5
