@@ -37,7 +37,3 @@ If you decide to use this platform for your own personal Forums, you would proba
 Forum Design (All HTML, CSS and JS code) courtesy of [HTML5 UP](http://html5up.net) which is owned by [n33](http://n33.co).  The templates from HTML5 UP are all licensed under the Creative Commons Attribution 3.0 License.
 
 This means that if you decide to use my platform for your own personal Forums, you are subject to *two* licenses - the CCA 3.0 License from HTML5 UP (you must provide suitable attribution such as 'Design: HTML5 UP' or equivalent in the footer) and the MIT License of this PHP Forums platform.
-
-## Other Notes
-
-A copy of this documentation can also be found on ```release-notes.txt```.
